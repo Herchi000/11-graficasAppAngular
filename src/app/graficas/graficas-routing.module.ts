@@ -13,7 +13,7 @@ const routes: Routes = [
       {path: 'barras-doble',component: BarrasDobleComponent},
       {path: 'dona',component: DonaComponent},
       {path: 'dona-http',component: DonaHttpComponent},
-      {path: '**',redirectTo: 'barra'},
+      {path: '**',redirectTo: 'barras'},
     ]
   }
 
